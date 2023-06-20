@@ -129,7 +129,7 @@ async function run() {
 }
 run().catch(console.dir);
 app.get('/', (req, res) => {
-    res.send(' this is the new creation')
+    res.send('wellcome to pciu application')
 });
 app.listen(port, () => {
     console.log('db connected')
